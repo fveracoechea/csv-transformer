@@ -1,4 +1,5 @@
 # CSV Transformer
+Leverages **streaming** APIs to efficiently transform and preview large CSV files, featuring a simple and intuitive UI.
 
 ![Application view](/public/app-view.png)
 
