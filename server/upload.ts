@@ -144,7 +144,7 @@ export async function transformCSV(
 ) {
   const records: Record<string, string>[] = [];
   const duplicatesTable: Record<string, boolean> = {};
-  const newFile = `./data/${filename.replace(".csv", "_[transfromed].csv")}`;
+  const newFile = `./data/${filename.replace(".csv", "_[transformed].csv")}`;
 
   const parser = parse({ columns: true, bom: true });
   const readStream = createReadStream(`./data/${filename}`);
